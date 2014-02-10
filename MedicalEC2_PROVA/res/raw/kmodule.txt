@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
+    <kbase name="KBase1" packages="src/com/gradle/application/medicalec" eventProcessingMode="cloud" default="true">
+        <ksession name="ksession-rules" type="stateful" default="true"/>
+    </kbase>
+</kmodule>
